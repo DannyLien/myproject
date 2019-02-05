@@ -7,6 +7,15 @@ fun main(args: Array<String>) {
     val h = Human()
     h.hello()
 
+//    val 固定
+//    var 可變
+
+    var age =19
+    age = 20
+    var weight = 66.5f  
+    var name : String
+    name = "Danny"
+
 }
 
 class Human{
