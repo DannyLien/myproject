@@ -9,6 +9,8 @@ public class StudentRunner {
                 "Hank", 51, 49);
         Student stu2 = new Student("Ecir", 55, 54);
         Student stu3 = new Student("Jann", 40, 41);
+        GraduateStudent gstu = new GraduateStudent("Jack",55,66,60);
+        gstu.print();
         stu.print();
         stu2.print();
         stu3.print();
