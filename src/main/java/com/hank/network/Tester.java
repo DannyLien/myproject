@@ -18,7 +18,7 @@ public class Tester {
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             String line = br.readLine();
             StringBuffer json = new StringBuffer();
-            while (line != null){
+            while (line != null) {
 //                System.out.println(line);
                 json.append(line);
                 line = br.readLine();
